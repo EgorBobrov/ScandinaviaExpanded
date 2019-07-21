@@ -4,6 +4,7 @@ replace_path="common/decisions/Sweden_decisions.txt"
 replace_path="common/national_focus/Scandinavia.txt"
 replace_path="events/Scandinavia.txt"
 replace_path="events/Norway.txt"
+replace_path="events/Sweden.txt"
 replace_path="localisation/KR_Sweden_l_english.yml"
 replace_path="localisation/KR_Norway_l_english.yml"
 dependencies = { "Kaiserreich" }

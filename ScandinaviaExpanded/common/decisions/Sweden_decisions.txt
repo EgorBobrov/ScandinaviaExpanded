@@ -431,20 +431,6 @@ SWE_geopolitical_actions = {
 			OR = {
 				has_government = national_populist
 				has_government = totalist
-				AND = {
-					OR = {
-						has_government = social_conservative
-						has_government = social_democrat
-						has_government = social_liberal
-						has_government = market_liberal
-					}
-					NOR = {
-						OR = {
-							has_government = syndicalist
-							has_government = radical_socialist
-						}
-					}
-				}
 			}
 		}
 		visible = {
@@ -456,24 +442,9 @@ SWE_geopolitical_actions = {
 			OR = {
 				has_authoritarian_government = yes
 				has_government = totalist
-
-				AND = {
-					OR = {
-						has_government = social_conservative
-						has_government = social_democrat
-						has_government = social_liberal
-						has_government = market_liberal
-					}
-					NOR = {
-						OR = {
-							has_government = syndicalist
-							has_government = radical_socialist
-						}
-					}
-				}
 			}
 		}
-		cost = 100
+		cost = 0
 		ai_will_do = {
 			factor = 0
 		}
@@ -508,20 +479,6 @@ SWE_geopolitical_actions = {
 			OR = {
 				has_government = national_populist
 				has_government = totalist
-				AND = {
-					OR = {
-						has_government = social_conservative
-						has_government = social_democrat
-						has_government = social_liberal
-						has_government = market_liberal
-					}
-					NOR = {
-						OR = {
-							has_government = syndicalist
-							has_government = radical_socialist
-						}
-					}
-				}
 			}
 		}
 		visible = {
@@ -531,23 +488,9 @@ SWE_geopolitical_actions = {
 			OR = {
 				has_authoritarian_government = yes
 				has_government = totalist
-				AND = {
-					OR = {
-						has_government = social_conservative
-						has_government = social_democrat
-						has_government = social_liberal
-						has_government = market_liberal
-					}
-					NOR = {
-						OR = {
-							has_government = syndicalist
-							has_government = radical_socialist
-						}
-					}
-				}
 			}
 		}
-		cost = 100
+		cost = 0
 		ai_will_do = {
 			factor = 10
 			modifier = { #AI shouldn't invade when Norway is in a faction

@@ -872,6 +872,9 @@ country_event = { # A Syndicalist Norway
 			clr_country_flag = NOR_rad_soc_govt
 		}
 		#country_event = norway.28
+		SWE = {
+			country_event = sweden.350
+		}
 	}
 }
 
@@ -892,7 +895,7 @@ country_event = { # alliance with the Internationale
 			has_government = syndicalist
 			has_government = radical_socialist
 		}
-		
+
 	}
 
 	mean_time_to_happen = {

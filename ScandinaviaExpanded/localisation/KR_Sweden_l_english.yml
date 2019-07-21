@@ -1264,6 +1264,12 @@ swe.330.t:0 "Scandinavian Federation Fail"
 swe.330.d:0 "Our attempts at creating a Nordic Federation have failed... It seems that Nordic Integration have reached it peak."
 swe.330.a:0 "Damn you, stupid Scandinavians!"
 
+# Scandinavia Expanded submod stuff
+swe.350.t:0 "Syndicalism in Norway"
+swe.350.d:0 "Democratic regime in Norway has fallen victim to a red populist tide. It is tragic, but what is more tragic is the fact that in no time the new Norwegian government will surely petition to join the Internationale and thus only our border patrols will stand between our motherland and the red tide!"
+swe.350.a:0 "We have only one option - strike first!"
+swe.350.b:0 "We can't kill our neighbors just because they elected somebody we don't like!"
+
 ### Tooltips ###
 SWE_new_generals_tooltip:0 "A §Y2 Skill General§! named §YFrode Lund Hvalkof§! will appear.\nA §Y1 Skill General§! named §YErland Frisvold§! will appear.\n"
 basic_light_tank:0 "Basic Light Tank"
