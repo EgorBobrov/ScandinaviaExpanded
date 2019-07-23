@@ -1654,7 +1654,7 @@ country_event = { #Ew, Norway is socialist. Should we intervene?
 		add_stability = -0.25
 		declare_war_on = {
 			target = NOR
-			type = annex_everything
+			type = topple_government
 		}
 	}
 

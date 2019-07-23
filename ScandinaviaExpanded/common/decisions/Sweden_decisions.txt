@@ -89,8 +89,11 @@ SWE_geopolitical_actions = {
 									has_government = market_liberal
 									has_government = social_conservative
 								}
-								NOT = {
-									is_subject = yes
+								OR = {
+									is_subject_of = SWE
+									NOT = {
+										is_subject = yes
+									}
 								}
 							}
 						}
@@ -119,7 +122,15 @@ SWE_geopolitical_actions = {
 			}
 			visible = {
 				country_exists = DEN
-				country_exists = NOR
+				OR {
+					country_exists = NOR
+					110 = {
+						is_owned_by = SWE
+					}
+					NOR = {
+						is_subject_of = SWE
+					}
+				}
 				is_subject = no
 				SWE = {
 					OR = {

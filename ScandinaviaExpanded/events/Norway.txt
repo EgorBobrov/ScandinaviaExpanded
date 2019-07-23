@@ -873,7 +873,7 @@ country_event = { # A Syndicalist Norway
 		}
 		#country_event = norway.28
 		SWE = {
-			country_event = sweden.350
+			country_event = swe.350
 		}
 	}
 }
